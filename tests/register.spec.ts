@@ -19,7 +19,7 @@ let registrationData:RegData[] = parse(fileContent,{columns:true,skip_empty_line
 
 for(let user of registrationData)
 {
-test(`verify user is able to register ${user.firstName}`,async ({page,baseURL})=>{
+test(`@register verify user is able to register ${user.firstName}`,async ({page,baseURL})=>{
 
     let loginPage = new LoginPage(page);
     await loginPage.goToLoginPage(baseURL);
