@@ -1,0 +1,11 @@
+Filled the text pwtest@nal.com in the element getByRole('textbox', { name: 'E-Mail Address' })
+Filled the text test123 in the element getByRole('textbox', { name: 'Password' })
+Clicked on element : input[type="submit"][value="Login"]
+search key:samsung
+Filled the text samsung in the element getByRole('textbox', { name: 'Search' })
+Clicked on element : locator('#search>span.input-group-btn>button.btn')
+==========product name: ====Samsung Galaxy Tab 10.1
+Clicked on element : getByRole('link', { name: 'Samsung Galaxy Tab 10.1' })
+Product header is :Samsung Galaxy Tab 10.1
+wait for element to be visible
+Number of images of product are :7
