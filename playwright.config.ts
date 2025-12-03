@@ -36,7 +36,7 @@ export default defineConfig({
       embedAttachments: true,
       outputFolder: 'playwright-html-report',
       minifyAssets: true,
-      startServer: false,
+      startServer: false, //true on CI on local
     }]
   ],
   
@@ -47,7 +47,7 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
-    headless: true,
+    headless: !!process.env.CI, //true on CI and false on local,
     screenshot: 'on-first-failure',
     video:'on',
     baseURL:'https://naveenautomationlabs.com/opencart/index.php',

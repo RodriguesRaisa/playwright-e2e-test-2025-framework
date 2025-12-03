@@ -31,7 +31,7 @@ export default defineConfig({
       title: 'OPEN CART HTML Report',
       project: 'Open Cart',
       release: '9.87.6',
-      testEnvironment: 'QA',
+      testEnvironment: 'PROD',
       embedAssets: true,
       embedAttachments: true,
       outputFolder: 'playwright-html-report',
