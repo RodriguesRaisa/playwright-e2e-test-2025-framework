@@ -146,6 +146,6 @@ jobs:
       - name: Report URLs
         run: |
           echo "Reports Published!"
-          echo "Playwright Built-in: https://github.com/RodriguesRaisa/playwright-e2e-test-2025-framework/playwright-report/index.html"
-          echo "Playwright HTML Reporter: https://github.com/RodriguesRaisa/playwright-e2e-test-2025-framework/playwright-html-report/index.html"
-          echo "Allure: https://github.com/RodriguesRaisa/playwright-e2e-test-2025-framework/allure-report/index.html"
+          echo "Playwright Built-in: https://rodriguesraisa.github.io/playwright-e2e-test-2025-framework/playwright-report/index.html"
+          echo "Playwright HTML Reporter: https://rodriguesraisa.github.io/playwright-e2e-test-2025-framework/playwright-html-report/index.html"
+          echo "Allure: https://rodriguesraisa.github.io/playwright-e2e-test-2025-framework/allure-report/index.html"
